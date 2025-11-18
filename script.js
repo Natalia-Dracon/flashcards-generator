@@ -2,7 +2,7 @@ const generateBtn = document.getElementById("generateBtn");
 const promptInput = document.getElementById("prompt");
 const cardsContainer = document.getElementById("cardsContainer");
 
-const OPENAI_API_KEY = "ВСТАВЬТЕ_СВОЙ_API_KEY";
+const OPENAI_API_KEY = "sk-proj-sqO6WdtKxjWSVniVzadLozDrQAzOMCWjKHKu3XxaAnEpy1A9O4OLZ9SUZenPOl1WjA2rxYy0IRT3BlbkFJ2wjoV17Cn-nrr7NZG_vAaiXL8TXwi4Sv1wj4v875qDPJYBmTVmwPoyvtKM1yq6Ov6UcqQP15MA_API_KEY";
 
 generateBtn.addEventListener("click", async () => {
     const prompt = promptInput.value.trim();
